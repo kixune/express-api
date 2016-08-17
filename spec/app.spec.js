@@ -1,6 +1,6 @@
 // require modules for testing
-var app = require('../app');
-    request = require("request");
+var app = require('../app')
+    request = require("request")
     supertest = require("supertest");
 
 describe("Express Server Api", function() {
