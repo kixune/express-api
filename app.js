@@ -9,3 +9,6 @@ app.set('port', (process.env.PORT || 3000));
 app.listen(app.get('port'), function() {
   console.log('Run at localhost:' + app.get('port') + '...\n3\n2\n1\nG o  G o  G o');
 });
+
+
+module.exports = app;
