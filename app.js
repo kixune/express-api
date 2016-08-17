@@ -1,4 +1,4 @@
-var mongo_url = process.env.MOGODB_URI || 'mongodb://localhost/myinfo';
+var mongo_url = process.env.MONGODB_URI || 'mongodb://localhost/myinfo';
 
 // require mongoose
 var mongoose = require('mongoose');
