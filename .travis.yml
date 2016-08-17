@@ -1,3 +1,10 @@
 language: node_js
 node_js:
 - node
+deploy:
+  provider: heroku
+  api_key:
+    secure: rnN1Nj60xOpg/2PzCncJDsQI6s/z9kLIi9iVk8GowlETjRrAmihDFv2V3LCK9kCMKL3ILGnBw9TimJhTKglQBRd6opIKD8XyVEBEOYfI2LFx4l93SqyF2IVa9FzUw8WUtYDquJez3zcO6wT07J4cM6vkxn2gJXTQ1Ot7CS5OcLkAO272z1eucBVytR+/2yKXuIT0ytPZEQKZ4QlpgJ0tlkBIJBk53llLDVCzysGuwqiediF/4NLpvN4/MFiM+30lEHXjlwOafARfpUYV5LlCGUOdoc/WVVcO10FwPMakn09ddNKhZKJ4Js1rr+gpeUN0VJtp8hgPfXX7nOlv5pZEpQCsMC8rC3+oWWZdqxxxuhJiHEJhwZeqNaWrVsu0+Vmz64GGc0YFWXGxXOn9ECyBs8hcByevzZL3ZkJrooKixTl+QR0ri12u+viq2RoF4kLj0r+l8sYMX+yJx7bAItNFC2H0Ag595VHf+xEh2EZxADKmDxnictVNG2i6SKyek9AJdf9qWGNutyD1plqOXlUouazGpE4DosOR2twzNWO0/cRdqRVaL7fgfCam5oMmUOQrA4O/YrQ/w6gUWQQGz+8Dq1oKvLwcrpcTwQ5zBzjPZy+2ZpUUId3NlQQG6KBqHJGo45bKZSwneTnGsZpp0KRNnB7+ICxuhB92H5eN4fr32UU=
+  app: overkilt
+  on:
+    repo: kixune/express-api
