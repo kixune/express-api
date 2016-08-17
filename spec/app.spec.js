@@ -4,7 +4,7 @@ var app = require('../app');
     supertest = require("supertest");
 
 describe("Express Server Api", function() {
-  it("returns status code 200", function() {
+  it("returns status code 200", function(done) {
     supertest(app)
       .get('/')
       .expect('Content-Type', /json/)

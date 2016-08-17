@@ -1,3 +1,11 @@
+var mongo_url = process.env.MOGODB_URI || 'mongodb://localhost/myinfo';
+
+// require mongoose
+var mongoose = require('mongoose');
+mongoose.promise = global.Promise;
+mongoose.connect(mongo_url);
+
+
 // require express.js to gain access to npms installed
 var express = require('./config/express');
 var app = express();
